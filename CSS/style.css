@@ -8,3 +8,109 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 Text Domain: your-text-domain 
 */ 
+
+/* Product page */
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a {
+  background-color: #333;
+  color: #fff;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a {
+  background-color: #f9f9f9;
+  color: #333;
+}
+.woocommerce div.product .woocommerce-tabs,
+.woocommerce #content div.product .woocommerce-tabs,
+.woocommerce-page div.product .woocommerce-tabs,
+.woocommerce-page #content div.product .woocommerce-tabs {
+  border: none;
+  margin-top: 30px;
+}
+
+/* Checkout page */
+.woocommerce-checkout #order_review_heading {
+  background-color: #f9f9f9;
+  border: none;
+  color: #333;
+  margin-top: 30px;
+  padding: 20px;
+}
+.woocommerce-checkout #order_review {
+  border: none;
+  margin-top: 30px;
+}
+.woocommerce-checkout #order_review table.shop_table th,
+.woocommerce-checkout #order_review table.shop_table td {
+  border: none;
+  padding: 10px;
+}
+.woocommerce-checkout #order_review table.shop_table th {
+  background-color: #f9f9f9;
+}
+/* Blog post */
+.post {
+  background-color: #f9f9f9;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.post h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.post p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.post a {
+  color: #333;
+  text-decoration: underline;
+}
+.post a:hover {
+  color: #f44336;
+}
+.post .post-thumbnail {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Header */
+.site-header {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.site-header .site-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+.site-header .site-description {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.site-header .search-form {
+  margin-top: 20px;
+}
+.site-header .search-field {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 300px;
+}
+.site-header .search-submit {
+  background-color:
