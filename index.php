@@ -9,4 +9,11 @@
 
 </main> 
 
+<section class="featured-products">
+  <h2>Featured Products</h2>
+  <div class="product-grid">
+    <!-- Add the HTML for each featured product -->
+  </div>
+</section>
+
 <?php get_footer(); ?> 
