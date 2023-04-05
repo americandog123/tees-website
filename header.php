@@ -21,5 +21,32 @@
   </div>
 </div>
 
+<nav class="main-menu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Shop by Category</a>
+      <ul class="sub-menu">
+        <li><a href="#">T-Shirts</a></li>
+        <li><a href="#">Hoodies</a></li>
+        <li><a href="#">Sweatshirts</a></li>
+        <li><a href="#">Tank Tops</a></li>
+        <li><a href="#">Long Sleeve Shirts</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Shop by Tag</a>
+      <ul class="sub-menu">
+        <li><a href="#">Funny</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">TV and Movies</a></li>
+        <li><a href="#">Holidays</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Customize Your Own</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
+
         
     </header>

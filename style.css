@@ -284,3 +284,153 @@ Text Domain: your-text-domain
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
+  /* WooCommerce Shop Page */
+
+.woocommerce-shop-page {
+  padding: 50px 0;
+}
+
+.woocommerce-page-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.woocommerce-products-wrapper {
+  margin-top: 50px;
+}
+
+ul.products {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.products li.product {
+  margin-bottom: 30px;
+}
+
+ul.products li.product a {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+ul.products li.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+ul.products li.product h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+ul.products li.product .price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+ul.products li.product .button {
+  display
+
+  /* Main menu container */
+nav.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main menu list */
+nav.main-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main menu list items */
+nav.main-menu ul li {
+  margin: 0 10px;
+  position: relative;
+}
+
+/* Main menu links */
+nav.main-menu ul li a {
+  display: block;
+  color: #222;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+/* Main menu links hover state */
+nav.main-menu ul li a:hover {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Submenu container */
+nav.main-menu ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Submenu list items */
+nav.main-menu ul ul li {
+  width: 200px;
+  margin: 0;
+}
+
+/* Submenu links */
+nav.main-menu ul ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #222;
+  font-size: 14px;
+  text-transform: none;
+}
+
+/* Submenu links hover state */
+nav.main-menu ul ul li a:hover {
+  background-color: #f4f4f4;
+}
+
+/* Submenu indicator arrow */
+nav.main-menu ul li:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -3px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid #222;
+  transition: all 0.3s ease;
+}
+
+/* Submenu indicator arrow hover state */
+nav.main-menu ul li:hover:after {
+  transform: rotate(-90deg);
+}
+
+/* Submenu visible state */
+nav.main-menu ul li:hover > ul {
+  display: block;
+}
