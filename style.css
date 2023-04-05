@@ -434,3 +434,81 @@ nav.main-menu ul li:hover:after {
 nav.main-menu ul li:hover > ul {
   display: block;
 }
+
+  /* Product List Page */
+
+/* Set max width for the product container */
+.product-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style the product item */
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect for product item */
+.product-item:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Style the product image */
+.product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style the product title */
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the product price */
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the product description */
+.product-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the product button */
+.product-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for product button */
+.product-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Clearfix for product list */
+.product-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
